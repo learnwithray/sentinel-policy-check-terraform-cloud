@@ -1,6 +1,6 @@
 resource "google_cloud_run_v2_service" "default" {
   name= "hello-1"
-  location = "us-central2"
+  location = "us-central1"
   project  = "burner-mansaini"
   # ingress = "INGRESS_TRAFFIC_INTERNAL_ONLY"
   template {
