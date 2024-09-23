@@ -15,7 +15,7 @@ terraform {
     organization = "learnwithray" 
 
     workspaces { 
-      name = "module-testing" 
+      name = "sentinel-policy-check-terraform-cloud" 
     } 
   } 
 }
