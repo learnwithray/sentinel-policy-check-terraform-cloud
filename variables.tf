@@ -1,15 +1,7 @@
-# #### Generic Variables
-# variable "project_id" {
-#   default = "burner-mansaini"
-# }
-# variable "region" {
-#   default = "us-central1"
-# }
-
-variable "google_project" {
-  type = string
+#### Generic Variables
+variable "project_id" {
+  default = "burner-mansaini"
 }
-
-variable "google_region" {
-  type = string
+variable "region" {
+  default = "us-central1"
 }
